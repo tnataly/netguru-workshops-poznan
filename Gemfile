@@ -4,6 +4,8 @@ ruby '2.2.0'
 gem 'bootstrap-sass'
 gem 'coffee-rails', '~> 4.1.0'
 gem 'decent_exposure'
+gem 'decent_decoration'
+gem 'devise'
 gem 'draper'
 gem 'font-awesome-rails'
 gem 'jquery-rails'
@@ -30,6 +32,7 @@ end
 
 group :development, :test do
   gem 'byebug'
+  gem 'pry'
   gem 'factory_girl_rails'
   gem 'faker'
   gem 'rspec-rails'
