@@ -1,4 +1,20 @@
-RoR Workshops
+Solution for Netguru RoR workshop challenge
+================
+:star: List of mandatory tasks:
+- [x] Make sure all tests pass `RAILS_ENV=test bundle exec rspec` (see [commits](https://github.com/tnataly/netguru-workshops-poznan/commits/master))
+- [x] Prepare seeds data
+- [x] Connect Travis CI to the repo [![Build Status](https://travis-ci.org/tnataly/netguru-workshops-poznan.svg?branch=master)](https://travis-ci.org/tnataly/netguru-workshops-poznan)
+- [x] Deploy to Heroku with seeds (see [here](https://netguru-ror-workshop-poznan.herokuapp.com/))
+
+:boom: Additional tasks:
+- [ ] Add "birthdate functionality" for Students
+- [ ] Add a function that allows storing data about payments
+- [ ] Write specs for additional tasks
+
+:octocat::octocat::octocat:
+
+
+Original task description
 ================
 
 Hi! We think it’s great that you want to start learning **Ruby on Rails**. Taking part in workshops is also a **great opportunity to start working** with us and become one of the Netguru folks. Since you have just taken your first step on your adventure with programming in RoR, we challenge you to complete the following task. **Ready, steady… Go!**
