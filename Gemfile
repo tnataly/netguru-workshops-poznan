@@ -36,6 +36,7 @@ group :development, :test do
   gem 'pry'
   gem 'factory_girl_rails'
   gem 'rspec-rails'
+  gem 'capybara'
   gem 'spring'
   gem 'web-console', '~> 2.0'
 end
@@ -46,7 +47,6 @@ group :production do
 end
 
 group :test do
-  gem 'capybara'
   gem 'database_cleaner'
   gem 'launchy'
   gem 'selenium-webdriver'
