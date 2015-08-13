@@ -3,6 +3,10 @@ class StudentDecorator < BaseDecorator
     "#{first_name} #{last_name}"
   end
 
+  def f_birthdate
+    birthdate.strftime("%Y-%m_%d")
+  end
+
   def avg_notes(subject_item)
   	avg = SubjectItemNote.where("subject_item_id = ?", subject_item.id).average(:value)
   	if avg.nil?
