@@ -13,7 +13,7 @@ end
 teachers = Teacher.all
 5.times do
   SubjectItem.create!(
-    title: Faker::Hacker.ingverb.capitalize + " " + Hacker.adjective + " " + Hacker.noun
+    title: Faker::Hacker.ingverb.capitalize + " " + Hacker.adjective + " " + Hacker.noun,
     teacher: teachers.sample
   )
 end
