@@ -8,7 +8,7 @@ Rails.application.routes.draw do
     get :subjects
   end
 
-  get '/subjects' => 'reports#subjects', as: 'report_subjects'
+  get 'reports/subjects' => 'reports#subjects', as: 'report_subjects'
 
   resources :reports do
     get :subjects
