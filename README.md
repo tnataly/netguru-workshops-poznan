@@ -1,5 +1,6 @@
 # Solution for Netguru RoR workshop challenge
-================
+
+
 ###:star: List of mandatory tasks:
 - [x] Make sure all tests pass `RAILS_ENV=test bundle exec rspec` (see [commits](https://github.com/tnataly/netguru-workshops-poznan/commits/master))
 - [x] Prepare seeds data

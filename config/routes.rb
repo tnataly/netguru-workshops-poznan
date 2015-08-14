@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   end
 
   get 'reports/subjects' => 'reports#subjects', as: 'report_subjects'
+  get 'reports/payments' => 'reports#payments_all', as: 'report_payments'
 
   resources :reports do
     get :subjects
