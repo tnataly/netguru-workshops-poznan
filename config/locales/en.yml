@@ -37,5 +37,5 @@ en:
   payments:
     columns:
       pay_date: Date of payment
-      amount: Amount in US dollars
+      amount: "Total amount, USD" 
       month: Month payed for     
