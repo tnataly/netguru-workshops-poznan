@@ -10,7 +10,7 @@
 ###:octocat: Additional tasks:
 - [x] Add "birthdate functionality" for Students
 - [x] Add a function that allows storing data about payments
-- [ ] Write specs for additional tasks
+- [x] Write specs for additional tasks
 
 
 -----------
